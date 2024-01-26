@@ -1,0 +1,13 @@
+.btn-box {
+  font-size: 32px;
+  font-style: normal;
+  margin: auto;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: 600;
+  box-shadow: 2px 3px 3px 0px #074553;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

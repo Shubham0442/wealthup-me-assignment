@@ -1,0 +1,83 @@
+.mid-container {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+  top: 705px;
+}
+
+.mid-container > .wave-box {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.mid-container > .wave-box > svg {
+  width: 100%;
+}
+
+.content-box {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  color: #fff;
+  font-family: Poppins;
+  margin-top: 84px;
+  line-height: normal;
+}
+
+.diagram-box {
+  width: auto;
+  height: auto;
+  margin-top: -170px;
+}
+
+.diagram-box > img {
+  width: 960px;
+  height: auto;
+}
+
+.content-description {
+  width: 1137px;
+  height: auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -180px;
+}
+
+.content-description > div {
+  height: 82px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 27px;
+  letter-spacing: 1.89px;
+  padding-bottom: 97px;
+}
+
+.content-description > .ans-box {
+  width: 327px;
+}
+
+.content-description > .reg-box {
+  width: 280px;
+}
+
+.content-description > .report-box {
+  width: 350px;
+}

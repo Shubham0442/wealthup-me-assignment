@@ -1,0 +1,31 @@
+.list-ele-container {
+  width: 480px;
+  height: 68px;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  gap: 6px;
+}
+
+.list-ele-container > div svg {
+  width: 41px;
+  height: 41px;
+}
+
+.list-ele-container > .text-container {
+  width: 438px;
+  height: 100%;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.list-ele-container > .text-container > .underline {
+  height: 1px;
+  width: 363px;
+  background: #fff;
+  border: 1px solid #fff;
+  margin-top: 24px;
+}
